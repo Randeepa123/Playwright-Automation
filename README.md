@@ -38,7 +38,10 @@ npx playwright install
 ```
 .
 ├── tests/
-│   ├── tests.spec.js             # test cases
+│   ├── negative.spec.js          # negative test cases
+│   ├── positive.spec.js          # Positive test cases
+│   ├── UI.spec.js                # UI test cases
+│      
 ├── playwright.config.js          # Playwright configuration
 ├── package.json                  # Project dependencies
 └── README.md                     # This file
